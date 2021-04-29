@@ -12,6 +12,8 @@ $conn = array(
 $host = "https://localhost";
 
 $cardSets = [
+    // Standard fibonaci like series of values plus 0, Kaffepause, ∞ und ?
+    ['0','1', '2', '3', '5', '8', '13', '20', '40', '100','Kaffeepause','∞','?'],
     // Standard fibonaci like series of values
     ['1', '2', '3', '5', '8', '13', '20', '40', '100'],
     // Special card set with '?' for unclear stories
